@@ -19,7 +19,7 @@ if($result->num_rows==0)
 		
 		if($conn->query($sql))
 		{
-			header('location:index.php');	
+			header('location:user.php');	
 		}
 		else
 		{
