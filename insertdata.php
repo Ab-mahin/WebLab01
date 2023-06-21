@@ -27,7 +27,7 @@ if($result->num_rows==0)
 		}
 }
 else{
-	echo "username already exits try another";
+	echo "Product is already added. Edit that one.";
 	//header("Location:registration.php");
 	
 	}
